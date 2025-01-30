@@ -1,6 +1,9 @@
 ---
+layout: post
 title: "Starting a Sustainable Homestead in South Carolina: A Beginner’s Guide"
 date: 2025-01-29
+categories: [homesteading]
+excerpt: "Building a sustainable homestead in South Carolina is an exciting and rewarding journey..."
 ---
 
 # Starting a Sustainable Homestead in South Carolina: A Beginner’s Guide
@@ -28,7 +31,3 @@ If raising animals is part of your plan, chickens, goats, and rabbits are popula
 South Carolina receives plenty of sunlight, making it a prime location for solar power. Investing in solar panels can significantly reduce your reliance on the grid and help power your homestead in an environmentally friendly way. Look into local incentives and rebates for renewable energy installation.
 
 Starting a sustainable homestead in South Carolina requires planning, hard work, and patience, but the rewards are immeasurable. By working with nature and embracing eco-friendly practices, you can create a thriving, self-sufficient lifestyle for years to come.
-
----
-
-&copy; 2025 Heartland Haven Farm. All rights reserved.
