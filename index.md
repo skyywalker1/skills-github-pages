@@ -1,3 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heartland Haven Farm</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .nav {
+            background-color: #4CAF50;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+        }
+        .nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        .nav a:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigation Menu -->
+<div class="nav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="products.html">Our Products</a>
+    <a href="contact.html">Contact</a>
+</div>
+
+<!-- Page Content -->
+<h1>Welcome to Heartland Haven Farm</h1>
+
+</body>
+</html>
+
+
 ---
 Heartland Haven Farm
 ---
