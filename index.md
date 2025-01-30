@@ -1,4 +1,4 @@
-Stephanie Walker
+title: "Stephanie Walker"
 about me
 
 
