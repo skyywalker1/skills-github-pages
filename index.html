@@ -1,26 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> <!-- Fix: Properly place the head tag -->
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Heartland Haven Farm</title>
     <style>
         body {
-    background-color: #f0f0f0; /* Light gray */
-}
+            background-color: #d9d9d9; /* Slightly darker gray */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
 
-a {
-    color: black; /* Make links black */
-    text-decoration: none; /* Optional: Removes the underline */
-}
+        .nav {
+            padding: 15px;
+            background-color: #333;
+            text-align: center;
+        }
 
-a:hover {
-    color: gray; /* Optional: Change color on hover */
-}
+        .nav a {
+            color: black; /* Make links black */
+            text-decoration: none; /* Remove underline */
+            margin: 0 15px;
+            font-weight: bold;
+        }
 
+        .nav a:hover {
+            color: gray; /* Change color on hover */
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+
+        section {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: lightgray;
+        }
     </style>
 </head>
-<body> <!-- Fix: Remove duplicate body tag -->
+<body>
     <div class="nav">
         <a href="index.html">Home</a>
         <a href="about.html">About Us</a>
@@ -29,6 +66,7 @@ a:hover {
         <a href="blog.html">Blog</a>
         <a href="contact.html">Contact Us</a>
     </div>
+
     <header>
         <h1>Welcome to Heartland Haven Farm</h1>
         <p><strong>Where Tradition Meets Sustainability</strong></p>
@@ -62,6 +100,7 @@ a:hover {
         <h2>Visit Us</h2>
         <p>We welcome visitors who want to experience farm life, learn about sustainable agriculture, or simply enjoy the peaceful beauty of the countryside. Whether you’re looking for fresh food, a family-friendly farm day, or an escape from city life, Heartland Haven Farm is your perfect destination.</p>
         <p>Join us on our journey to create a healthier, more sustainable future—one harvest at a time.</p>
+
         <h2>Explore More</h2>
         <ul>
             <li><a href="products.html">View Our Products</a></li>
@@ -76,8 +115,5 @@ a:hover {
         <p>Email us at: <a href="mailto:info@heartlandhaven.org">info@heartlandhaven.org</a></p>
         <p>Follow us on social media for farm updates, seasonal offerings, and event announcements!</p>
     </footer>
-
 </body>
 </html>
-
-
