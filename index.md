@@ -1,11 +1,43 @@
-<nav>
-  <ul>
-    <li><a href="{{ site.baseurl }}/">Home</a></li>
-    <li><a href="{{ site.baseurl }}/about">About Us</a></li>
-    <li><a href="{{ site.baseurl }}/products">Our Products</a></li>
-    <li><a href="{{ site.baseurl }}/contact">Contact</a></li>
-  </ul>
-</nav>
+<div class="nav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <div class="dropdown">
+        <a href="#">Products ▼</a>
+        <div class="dropdown-content">
+            <a href="fruits.html">Fruits</a>
+            <a href="vegetables.html">Vegetables</a>
+            <a href="livestock.html">Livestock</a>
+        </div>
+    </div>
+    <a href="contact.html">Contact</a>
+</div>
+
+<style>
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: white;
+        min-width: 150px;
+        box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    .dropdown-content a:hover {
+        background-color: #ddd;
+    }
+</style>
+
 
 
 <!-- Page Content -->
