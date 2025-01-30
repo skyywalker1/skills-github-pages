@@ -13,25 +13,14 @@ title: "Blog | Heartland Haven Farm"
     {% for post in site.posts %}
         <div class="blog-post">
             <h3 class="blog-post-title">
-                <a href="#{{ post.url | split: '/' | last | remove: '.html' }}" class="blog-post-link">{{ post.title }}</a>
+                <a href="{{ post.url }}" class="blog-post-link">{{ post.title }}</a>
             </h3>
             <p class="blog-post-excerpt">{{ post.excerpt }}</p>
-            <p><a href="#{{ post.url | split: '/' | last | remove: '.html' }}" class="blog-post-link">Read more...</a></p>
+            <p><a href="{{ post.url }}" class="blog-post-link">Read more...</a></p>
         </div>
     {% endfor %}
 </div>
 
----
-
-{% for post in site.posts %}
-    <div id="{{ post.url | split: '/' | last | remove: '.html' }}" class="post-content">
-        <h2>{{ post.title }}</h2>
-        <p>{{ post.excerpt }}</p>
-        {{ post.content }}
-    </div>
-{% endfor %}
-
 <footer>
     <p>&copy; 2025 Heartland Haven Farm. All rights reserved.</p>
 </footer>
-
