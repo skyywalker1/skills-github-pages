@@ -34,3 +34,4 @@ title: "Blog | Heartland Haven Farm"
 <footer>
     <p>&copy; 2025 Heartland Haven Farm. All rights reserved.</p>
 </footer>
+
