@@ -3,8 +3,14 @@ layout: default
 title: "Blog | Heartland Haven Farm"
 ---
 
+<style>
+  body {
+    background-color: #d3d3d3; /* Medium gray background */
+  }
+</style>
+
 # Heartland Haven Farm Blog
-Your Guide to Sustainable Living
+### Your Guide to Sustainable Living
 
 <div class="blog-container">
     <h2>Latest Blog Posts</h2>
@@ -13,10 +19,11 @@ Your Guide to Sustainable Living
     {% for post in site.posts %}
         <div class="blog-post">
             <h3 class="blog-post-title">
-                <a href="{{ post.url }}" class="blog-post-link">{{ post.title }}</a>
+                <!-- Use absolute path for correct linking -->
+                <a href="{{ site.baseurl }}{{ post.url }}" class="blog-post-link">{{ post.title }}</a>
             </h3>
             <p class="blog-post-excerpt">{{ post.excerpt }}</p>
-            <p><a href="{{ post.url }}" class="blog-post-link">Read more...</a></p>
+            <p><a href="{{ site.baseurl }}{{ post.url }}" class="blog-post-link">Read more...</a></p>
         </div>
     {% endfor %}
 </div>
