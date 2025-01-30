@@ -1,3 +1,9 @@
+2025-01-29-Starting A Sustainable Homestead in South Carolina.md
+
+---
+title: "Starting a Sustainable Homestead in South Carolina: A Beginner’s Guide"
+date: 2025-01-29
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
