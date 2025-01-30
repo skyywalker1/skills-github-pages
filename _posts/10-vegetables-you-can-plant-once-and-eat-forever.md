@@ -80,4 +80,3 @@ Start planning your perennial garden today, and enjoy the fruits (and veggies) o
 ---
 
 Let me know which of these vegetables you're most excited to grow or if you have any other questions about starting a perennial garden!
-
