@@ -1,5 +1,5 @@
 ---
-"Heartland Haven Farm"
+Heartland Haven Farm
 ---
 **About Us** 
 
